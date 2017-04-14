@@ -30,6 +30,8 @@ a {
 nav, ul, li {
   text-align: right;
   color: black;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 nav, ul, li:hover {
@@ -112,5 +114,16 @@ button:hover {
   background-color: #B22F6D;
 }
 
+.gallery-img {
+  width: 60%;
+  border: solid;
+  border-color: #BCCCC6;
+}
 
-/* NOTE:border color: #BCCCC6  */
+.username {
+  color: #eb3e87;
+}
+
+.create-titles {
+  color: #eb3e87;
+}
