@@ -76,6 +76,10 @@ nav, ul, li:hover {
   text-align: left;
 }
 
+.about {
+  color: white;
+}
+
 .about-img {
   width: 100%;
 }
@@ -101,16 +105,20 @@ nav, ul, li:hover {
   text-align: right;
 }
 
+.about-p {
+  margin-right: 0;
+}
+
 footer {
   background-color: grey;
 }
 
-button {
+.btn {
   background-color: #eb3e87;
   border: none;
 }
 
-button:hover {
+.btn:hover {
   background-color: #B22F6D;
 }
 
@@ -126,4 +134,8 @@ button:hover {
 
 .create-titles {
   color: #eb3e87;
+}
+
+.type-icon, .illustration-icon, .photo-icon, .finish-icon {
+  width: 50%;
 }
