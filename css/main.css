@@ -114,7 +114,7 @@ nav ul li a:hover {
 .banner-content {
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%);
   color: black;
@@ -198,6 +198,10 @@ footer {
 
 .create-titles {
   color: #eb3e87;
+}
+
+.interested {
+  border-top: solid lightgrey;
 }
 
 fieldset {
