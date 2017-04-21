@@ -12,11 +12,11 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "Bitter", serif;
+  font-family: Bitter, serif;
 }
 
-h2, h3 {
-  font-family: "Oswald", sans-serif;
+h2, h1 {
+  font-family: Oswald, sans-serif;
 }
 
 header {
@@ -30,7 +30,7 @@ a {
 nav, ul, li {
   text-align: right;
   color: black;
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
 
 }
 
@@ -67,7 +67,7 @@ nav, ul, li:hover {
 
 .create-card, .pricing-card, .gallery-card, .card-1, .card-2, .card-3 {
   display: inline-block;
-  margin: 0 .5em 1em .5em;
+  margin: 0 .5em 1em;
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
@@ -78,10 +78,6 @@ nav, ul, li:hover {
 
 .about {
   color: white;
-}
-
-.about-img {
-  width: 100%;
 }
 
 .about-img {
