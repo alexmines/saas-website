@@ -12,11 +12,11 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 h2, h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 header {
@@ -119,13 +119,13 @@ footer {
 }
 
 .btn:hover {
-  background-color: #B22F6D;
+  background-color: #b22f6d;
 }
 
 .gallery-img {
   width: 60%;
   border: solid;
-  border-color: #BCCCC6;
+  border-color: #bcccc6;
 }
 
 .username {
