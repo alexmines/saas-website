@@ -38,6 +38,7 @@ nav ul li a:hover {
   color: white;
   background-color: #eb3e87;
   padding: .25em;
+  border-radius: 4px;
 }
 
 .desktop-nav {
@@ -99,6 +100,16 @@ nav ul li a:hover {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
 }
 
 .img-flex {
@@ -212,6 +223,19 @@ fieldset {
   width: 50%;
 }
 
+.price {
+  color: #eb3e87;
+}
+
+table {
+  min-width: 50em;
+}
+
+.small-icon {
+  max-width: 70%;
+  margin-right: none;
+}
+
 @media only screen and (min-width: 38em) {
 
   .banner-img {
@@ -224,6 +248,14 @@ fieldset {
 
   .desktop-nav {
     display: block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
   }
 
 }
