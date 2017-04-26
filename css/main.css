@@ -15,6 +15,20 @@ html {
   font-family: Bitter, serif;
 }
 
+[type="checkbox"] + label::before {
+  content: none;
+}
+
+.i-128 .mobile-logo {
+  height:128px;
+  width:128px;
+}
+
+.i-128 .desktop-logo {
+  height:128px;
+  width:256px;
+}
+
 h2, h1 {
   font-family: Oswald, sans-serif;
 }
@@ -56,7 +70,6 @@ nav ul li a:hover {
 
 .nav a {
   display: block;
-  padding: 0.5em;
   text-decoration: none;
 }
 
@@ -76,7 +89,7 @@ nav ul li a:hover {
 
 .nav-label {
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: 1rem;
   display: inline-block;
   width: 40px;
   position: absolute;
@@ -100,16 +113,6 @@ nav ul li a:hover {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%;
-}
-
-.nav-close {
-  display: none;
 }
 
 .img-flex {
@@ -142,6 +145,8 @@ nav ul li a:hover {
 
 .pg1-cards {
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   list-style-type: none;
   text-align: center;
@@ -153,7 +158,7 @@ nav ul li a:hover {
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
-  border:3px solid #e2e2e2;
+  border: 3px solid #e2e2e2;
   border-radius: 10px;
   text-align: left;
 }
@@ -161,7 +166,7 @@ nav ul li a:hover {
 .about-img {
   display: block;
   width: 100%;
-  opacity: 0.5;
+  opacity: .5;
 }
 
 .aboutus {
@@ -233,7 +238,14 @@ table {
 
 .small-icon {
   max-width: 70%;
-  margin-right: none;
+}
+
+.desktop-logo {
+  display: none;
+}
+
+.mobile-logo {
+  display: block;
 }
 
 @media only screen and (min-width: 38em) {
@@ -247,6 +259,14 @@ table {
   }
 
   .desktop-nav {
+    display: block;
+  }
+
+  .mobile-logo {
+    display: none;
+  }
+
+  .desktop-logo {
     display: block;
   }
 
